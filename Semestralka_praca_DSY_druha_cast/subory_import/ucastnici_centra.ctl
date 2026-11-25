@@ -1,0 +1,10 @@
+LOAD DATA
+INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/ucastnici_centra.unl'
+INTO TABLE ucastnik_centra
+FIELDS TERMINATED BY '|'
+(
+  OS_CISLO_UCASTNIK,
+ID_CENTRA,
+DAT_PRIHLASENIA DATE 'DD/MM/YYYY',
+DAT_ODHLASENIA DATE 'DD/MM/YYYY' NULLIF DAT_ODHLASENIA=BLANKS
+)

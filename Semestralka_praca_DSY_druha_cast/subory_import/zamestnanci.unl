@@ -1,0 +1,25 @@
+500001|90010112345|Lektor programovania|plny uvazok|12.0
+500002|88051223456|Lektor anglictiny|skrateny uvazok|10.5
+500003|92030534567|Spravca centra|plny uvazok|11.5
+500004|99070145678|Veduci kruzku|brigada|9.0
+500005|85022256789|Lektor matematiky|plny uvazok|12.5
+500006|91041467890|Animator|brigada|8.0
+500007|87093078901|Lektor sportu|plny uvazok|11.0
+500008|93061589012|Koordinator aktivit|plny uvazok|13.5
+500009|96082390123|Lektor tanca|skrateny uvazok|10.0
+500010|88111101234|Recepcia|plny uvazok|9.5
+600001|90090912346|Lektor programovania|plny uvazok|13.0
+600002|92022023457|Animator|brigada|8.5
+600003|85050534568|Veduci centra|plny uvazok|15.0
+600004|97070745679|Spravca IT|plny uvazok|14.0
+600005|89121256780|Lektor anglictiny|skrateny uvazok|10.0
+600006|93030367891|Lektor sportu|plny uvazok|11.5
+600007|95101078902|Koordinator aktivit|plny uvazok|13.0
+600008|87080889013|Lektor umeleckych kruzkov|plny uvazok|12.0
+600009|92060690124|Recepcia|brigada|8.0
+600010|99090901235|Spravca centra|plny uvazok|14.5
+700001|90010112345|Veduci krusku programovania|plny uvazok|14.0
+700002|88051223456|Lektor matematiky|plny uvazok|12.0
+700003|92030534567|Animator|brigada|8.5
+700004|96082390123|Lektor sportu|skrateny uvazok|10.5
+700005|93061589012|Koordinator aktivit|plny uvazok|13.5

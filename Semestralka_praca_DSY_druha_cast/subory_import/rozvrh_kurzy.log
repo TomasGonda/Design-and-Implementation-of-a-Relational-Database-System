@@ -1,0 +1,9 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sat May 9 20:17:09 2026
+Version 19.8.0.0.0
+
+Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
+
+SQL*Loader-500: Unable to open file (rozvrh_kurzy.ctl)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: The system cannot find the file specified.

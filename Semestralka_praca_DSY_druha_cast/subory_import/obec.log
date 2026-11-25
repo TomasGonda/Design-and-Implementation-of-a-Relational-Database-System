@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sat May 9 19:13:38 2026
+Version 19.8.0.0.0
+
+Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   obec.ctl
+Data File:      D:/Desktop/databazy/Semestralka_cast_3/subory_import/obec.unl
+  Bad File:     obec.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table OBEC, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+PSC                                 FIRST     *   |       CHARACTER            
+ID_VUC                               NEXT     *   |       CHARACTER            
+NAZOV_OBCE                           NEXT     *   |       CHARACTER            
+CAST_OBCE                            NEXT     *   |       CHARACTER            
+
+Record 10: Rejected - Error on table OBEC, column CAST_OBCE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+Record 16: Rejected - Error on table OBEC, column CAST_OBCE.
+Column not found before end of logical record (use TRAILING NULLCOLS)
+
+Table OBEC:
+  18 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 258000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            20
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Sat May 09 19:13:38 2026
+Run ended on Sat May 09 19:13:40 2026
+
+Elapsed time was:     00:00:01.33
+CPU time was:         00:00:00.47

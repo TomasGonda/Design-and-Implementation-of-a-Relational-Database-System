@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/ucastnici.unl'
+INTO TABLE ucastnik
+FIELDS TERMINATED BY '|'
+(
+  OS_CISLO_UCASTNIK,
+ROD_CISLO,
+OS_CISLO_ZAMESTNANCA NULLIF OS_CISLO_ZAMESTNANCA=BLANKS
+)

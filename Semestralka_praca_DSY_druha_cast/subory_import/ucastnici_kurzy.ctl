@@ -1,0 +1,12 @@
+LOAD DATA
+INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/ucastnici_kurzy.unl'
+INTO TABLE ucastnik_kurzy
+FIELDS TERMINATED BY '|'
+(
+OS_CISLO,
+  ID_KURZ,
+DAT_ZAPISU DATE "DD/MM/YYYY",
+DAT_ODHLASENIA DATE "DD/MM/YYYY" NULLIF DAT_ODHLASENIA=BLANKS,
+HODNOTENIE,
+ABSOLVOVANY
+)

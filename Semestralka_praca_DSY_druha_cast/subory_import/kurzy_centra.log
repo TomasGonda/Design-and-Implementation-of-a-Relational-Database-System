@@ -1,0 +1,49 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sat May 9 20:04:45 2026
+Version 19.8.0.0.0
+
+Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   kurzy_centra.ctl
+Data File:      D:/Desktop/databazy/Semestralka_cast_3/subory_import/kurzy_centra.unl
+  Bad File:     kurzy_centra.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table KURZ_CENTRA, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_CENTRA                           FIRST     *   |       CHARACTER            
+ID_KURZ                              NEXT     *   |       CHARACTER            
+
+
+Table KURZ_CENTRA:
+  10 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 129000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            10
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sat May 09 20:04:45 2026
+Run ended on Sat May 09 20:04:46 2026
+
+Elapsed time was:     00:00:00.90
+CPU time was:         00:00:00.45
