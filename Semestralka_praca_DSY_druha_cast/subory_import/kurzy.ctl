@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/kurzy.unl'
+INFILE 'PATHkurzy.unl'
 INTO TABLE kurz
 FIELDS TERMINATED BY '|'
 (

@@ -5,7 +5,7 @@ Version 19.8.0.0.0
 Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   ucastnici.ctl
-Data File:      D:/Desktop/databazy/Semestralka_cast_3/subory_import/ucastnici.unl
+Data File:      PATHucastnici.unl
   Bad File:     ucastnici.bad
   Discard File:  none specified
  
@@ -29,10 +29,10 @@ OS_CISLO_ZAMESTNANCA                 NEXT     *   |       CHARACTER
     NULL if OS_CISLO_ZAMESTNANCA = BLANKS
 
 Record 9: Rejected - Error on table UCASTNIK.
-ORA-02291: integrity constraint (GONDA1.UCASTNICI_OSOBA_FK) violated - parent key not found
+ORA-02291: integrity constraint (MENO.UCASTNICI_OSOBA_FK) violated - parent key not found
 
 Record 17: Rejected - Error on table UCASTNIK.
-ORA-02291: integrity constraint (GONDA1.UCASTNICI_ZAMEST_FK) violated - parent key not found
+ORA-02291: integrity constraint (MENO.UCASTNICI_ZAMEST_FK) violated - parent key not found
 
 
 Table UCASTNIK:

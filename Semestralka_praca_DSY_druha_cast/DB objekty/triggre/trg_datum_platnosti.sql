@@ -5,7 +5,7 @@
 --  DDL for Trigger TRG_DATUM_PLATNOSTI
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "GONDA1"."TRG_DATUM_PLATNOSTI" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "MENO"."TRG_DATUM_PLATNOSTI" 
 before insert or update on cennik
 for each row
 begin
@@ -23,4 +23,4 @@ begin
 end;
 
 /
-ALTER TRIGGER "GONDA1"."TRG_DATUM_PLATNOSTI" ENABLE;
+ALTER TRIGGER "MENO"."TRG_DATUM_PLATNOSTI" ENABLE;

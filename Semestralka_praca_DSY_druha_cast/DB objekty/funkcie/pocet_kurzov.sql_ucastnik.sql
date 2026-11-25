@@ -5,7 +5,7 @@
 --  DDL for Function POCET_KURZOV_UCASTNIK
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE FUNCTION "GONDA1"."POCET_KURZOV_UCASTNIK" (
+  CREATE OR REPLACE EDITIONABLE FUNCTION "MENO"."POCET_KURZOV_UCASTNIK" (
     m_os_cislo in varchar2,
     m_id_centra in number
 )

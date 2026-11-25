@@ -5,7 +5,7 @@
 --  DDL for Function JE_PRIHLASENY
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE FUNCTION "GONDA1"."JE_PRIHLASENY" (
+  CREATE OR REPLACE EDITIONABLE FUNCTION "MENO"."JE_PRIHLASENY" (
     m_os_cislo in char,
     m_id_kurz in char,
     m_id_centra in number

@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/cennik.unl'
+INFILE 'PATHcennik.unl'
 INTO TABLE cennik
 FIELDS TERMINATED BY '|'
 (

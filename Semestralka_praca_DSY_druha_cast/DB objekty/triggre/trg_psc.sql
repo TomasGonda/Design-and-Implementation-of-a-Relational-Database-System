@@ -5,7 +5,7 @@
 --  DDL for Trigger TRG_PSC
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "GONDA1"."TRG_PSC" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "MENO"."TRG_PSC" 
 before insert or update on obec
 for each row
 declare
@@ -19,4 +19,4 @@ begin
 end;
 
 /
-ALTER TRIGGER "GONDA1"."TRG_PSC" ENABLE;
+ALTER TRIGGER "MENO"."TRG_PSC" ENABLE;

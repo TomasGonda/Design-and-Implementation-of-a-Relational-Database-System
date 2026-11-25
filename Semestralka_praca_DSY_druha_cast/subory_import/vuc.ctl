@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/vuc.unl'
+INFILE 'PATHvuc.unl'
 INTO TABLE vyssi_uzemny_celok
 FIELDS TERMINATED BY '|'
 (

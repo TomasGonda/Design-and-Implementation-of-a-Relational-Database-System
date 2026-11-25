@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/ucastnici_centra.unl'
+INFILE 'PATHucastnici_centra.unl'
 INTO TABLE ucastnik_centra
 FIELDS TERMINATED BY '|'
 (

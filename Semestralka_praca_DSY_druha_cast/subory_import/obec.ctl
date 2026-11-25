@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/obec.unl'
+INFILE 'PATHobec.unl'
 INTO TABLE obec
 FIELDS TERMINATED BY '|'
 (

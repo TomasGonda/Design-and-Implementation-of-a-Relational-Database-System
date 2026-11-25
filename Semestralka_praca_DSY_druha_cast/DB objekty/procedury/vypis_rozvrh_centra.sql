@@ -6,7 +6,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "GONDA1"."VYPIS_ROZVRH_CENTRA" (
+  CREATE OR REPLACE EDITIONABLE PROCEDURE "MENO"."VYPIS_ROZVRH_CENTRA" (
 m_id_centra in number
 )
 is

@@ -1,5 +1,5 @@
 LOAD DATA
-INFILE 'D:/Desktop/databazy/Semestralka_cast_3/subory_import/rozvrh_kurzov.unl'
+INFILE 'PATHrozvrh_kurzov.unl'
 INTO TABLE rozvrh_kurzy
 FIELDS TERMINATED BY '|'
 (

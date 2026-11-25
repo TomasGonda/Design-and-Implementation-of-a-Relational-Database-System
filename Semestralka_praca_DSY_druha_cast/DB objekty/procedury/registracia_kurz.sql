@@ -6,7 +6,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "GONDA1"."REGISTRACIA_KURZ" (
+  CREATE OR REPLACE EDITIONABLE PROCEDURE "MENO"."REGISTRACIA_KURZ" (
     m_os_cislo in char,
     m_id_kurz in char,
     m_id_centra in number

@@ -5,7 +5,7 @@ Version 19.8.0.0.0
 Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   zam_kurzy.ctl
-Data File:      D:/Desktop/databazy/Semestralka_cast_3/subory_import/zam_kurzy.unl
+Data File:      PATHzam_kurzy.unl
   Bad File:     zam_kurzy.bad
   Discard File:  none specified
  
@@ -28,7 +28,7 @@ ID_KURZ                              NEXT     *   |       CHARACTER
 JE_VEDUCI                            NEXT     *   |       CHARACTER            
 
 Record 9: Rejected - Error on table ZAMESTNANEC_KURZY.
-ORA-02291: integrity constraint (GONDA1.ZAM_KURZY_ZAM_FK) violated - parent key not found
+ORA-02291: integrity constraint (MENO.ZAM_KURZY_ZAM_FK) violated - parent key not found
 
 
 Table ZAMESTNANEC_KURZY:

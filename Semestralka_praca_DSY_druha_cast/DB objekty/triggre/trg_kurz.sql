@@ -5,7 +5,7 @@
 --  DDL for Trigger TRG_KURZ
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "GONDA1"."TRG_KURZ" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "MENO"."TRG_KURZ" 
 before insert on kurz
 for each row
 begin
@@ -13,4 +13,4 @@ begin
 end;
 
 /
-ALTER TRIGGER "GONDA1"."TRG_KURZ" ENABLE;
+ALTER TRIGGER "MENO"."TRG_KURZ" ENABLE;

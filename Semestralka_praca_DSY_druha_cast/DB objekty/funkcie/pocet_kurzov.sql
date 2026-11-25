@@ -5,7 +5,7 @@
 --  DDL for Function POCET_KURZOV
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE FUNCTION "GONDA1"."POCET_KURZOV" (
+  CREATE OR REPLACE EDITIONABLE FUNCTION "MENO"."POCET_KURZOV" (
     m_os_cislo in char
 )
 return number

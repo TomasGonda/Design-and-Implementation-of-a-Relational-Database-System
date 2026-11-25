@@ -5,7 +5,7 @@
 --  DDL for Trigger TRG_MIESTNOST
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "GONDA1"."TRG_MIESTNOST" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "MENO"."TRG_MIESTNOST" 
 before insert on miestnost
 for each row
 begin
@@ -13,4 +13,4 @@ begin
 end;
 
 /
-ALTER TRIGGER "GONDA1"."TRG_MIESTNOST" ENABLE;
+ALTER TRIGGER "MENO"."TRG_MIESTNOST" ENABLE;

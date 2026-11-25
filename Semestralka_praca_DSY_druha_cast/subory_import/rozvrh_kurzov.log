@@ -5,7 +5,7 @@ Version 19.8.0.0.0
 Copyright (c) 1982, 2020, Oracle and/or its affiliates.  All rights reserved.
 
 Control File:   rozvrh_kurzov.ctl
-Data File:      D:/Desktop/databazy/Semestralka_cast_3/subory_import/rozvrh_kurzov.unl
+Data File:      PATHrozvrh_kurzov.unl
   Bad File:     rozvrh_kurzov.bad
   Discard File:  none specified
  

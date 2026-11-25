@@ -5,7 +5,7 @@
 --  DDL for Trigger TRG_RC
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "GONDA1"."TRG_RC" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "MENO"."TRG_RC" 
 before insert or update on osoba
 for each row
 declare
@@ -19,4 +19,4 @@ begin
 end;
 
 /
-ALTER TRIGGER "GONDA1"."TRG_RC" ENABLE;
+ALTER TRIGGER "MENO"."TRG_RC" ENABLE;
